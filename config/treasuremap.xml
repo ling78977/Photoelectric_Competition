@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+  <!-- // IsQrPoint -->
+  <!-- // 角点大小范围 -->
+  <POINT_MINAREA>30</POINT_MINAREA>
+  <POINT_MAXAREA>10000</POINT_MAXAREA>
+  <!-- // 定位点最小长宽比 -->
+  <MINRATE>0.5</MINRATE>
+
+
+  <!-- search_treasure -->
+  <!--  宝藏点面积大小范围-->
+  <TREASURE_MINAREA>200</TREASURE_MINAREA>
+  <TREASURE_MAXAREA>500</TREASURE_MAXAREA>
+  <!-- // 宝藏点外接矩形最小长宽比 -->
+  <TREASURE_MINRATE>0.8</TREASURE_MINRATE>
+
+  <!-- // 近似轮廓精度 -->
+  <PRECISION>0.0001</PRECISION>
+  <!-- // 拟合圆形定点阈值 -->
+  <NUM_VERTICES>25</NUM_VERTICES>
+  <!-- // 宝藏数量 -->
+  <NUM_TREASURES>8</NUM_TREASURES>
+
+  <!-- red_and_blue -->
+  <!-- hsv蓝色参数 -->
+  <H_BLUE_MIN>100</H_BLUE_MIN>
+  <H_BLUE_MAX>124</H_BLUE_MAX>
+  <S_BLUE_MIN>125</S_BLUE_MIN>
+  <S_BLUE_MAX>255</S_BLUE_MAX>
+  <V_BLUE_MIN>46</V_BLUE_MIN>
+  <V_BLUE_MAX>255</V_BLUE_MAX>
+
+  <!-- hsv红色参数 -->
+  <H_RED1_MIN>0</H_RED1_MIN>
+  <H_RED1_MAX>10</H_RED1_MAX>
+  <S_RED1_MIN>43</S_RED1_MIN>
+  <S_RED1_MAX>255</S_RED1_MAX>
+  <V_RED1_MIN>46</V_RED1_MIN>
+  <V_RED1_MAX>255</V_RED1_MAX>
+
+  <H_RED2_MIN>156</H_RED2_MIN>
+  <H_RED2_MAX>180</H_RED2_MAX>
+  <S_RED2_MIN>43</S_RED2_MIN>
+  <S_RED2_MAX>255</S_RED2_MAX>
+  <V_RED2_MIN>46</V_RED2_MIN>
+  <V_RED2_MAX>255</V_RED2_MAX>
+
+  <!-- 检查红蓝色块形态学闭操作的卷积核大小 -->
+  <MORPHOLOGRAY_KERNEL_SIZE_CLOSE_1>5</MORPHOLOGRAY_KERNEL_SIZE_CLOSE_1>
+  <MORPHOLOGRAY_KERNEL_SIZE_CLOSE_2>5</MORPHOLOGRAY_KERNEL_SIZE_CLOSE_2>
+  <!-- 检查红蓝色块形态学开操作的卷积核大小 -->
+  <MORPHOLOGRAY_KERNEL_SIZE_OPEN_1>5</MORPHOLOGRAY_KERNEL_SIZE_OPEN_1>
+  <MORPHOLOGRAY_KERNEL_SIZE_OPEN_2>5</MORPHOLOGRAY_KERNEL_SIZE_OPEN_2>
+  <!-- 检查红蓝色块开运算迭代次数 -->
+  <OEPN_ITERATIONS>2</OEPN_ITERATIONS>
+  <!-- 检测红蓝色块 最小面积 -->
+  <RB_MINAREA>800</RB_MINAREA>
+  <!-- 红蓝色块最小长宽高比例 -->
+  <RB_MINRATE>0.4</RB_MINRATE>
+
+  <!-- isCorner -->
+  <IC_RATE>0.4</IC_RATE>
+  <!-- HSV调试
+        0 不调试
+        1 调试
+     -->
+  <HSV_EDIT>1</HSV_EDIT>
+
+
+</opencv_storage>
